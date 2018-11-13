@@ -163,6 +163,11 @@ body {
 	margin:	0;
 }
 
+.card-subhead {
+	font-size: large;
+	text-transform: capitalize;
+}
+
 .card-text {
 	margin: 1.25rem;
 	column-count: 1;
@@ -182,6 +187,18 @@ ul li ul li {
 
 .divSpacer {
 	height: 600px;
+}
+
+.eventDates {
+	border-collapse: collapse;
+}
+
+.eventDates td {
+	padding: 8px;
+}
+
+.eventDates .borderLeft {
+	border-left: 1px solid rgba(0,0,0,.125);
 }
 
 .FBbutton {
@@ -555,7 +572,7 @@ select {
 }
 
 .slantStudent {
-    background: url('../img/061_2018_MG_993.jpg');
+    background: url('../img/img_8089_crop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 280px;
